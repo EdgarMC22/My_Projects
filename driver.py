@@ -1,16 +1,16 @@
 '''
 Name: Edgar Mendez
 KUID: 3048729
-Date: 10/24/2022
+Date Created: 09/12/2022
+Last Modified: 09/12/2022
+Lab: 02
+Purpose: Mock CPU Scheduler
 '''
-#main.py
 
-from pokemon import Pokemon
-
+from process import Process
 def main():
-	p = Pokemon()
+	p = Process()
 	p.run()
 
 if __name__ == "__main__":
 	main()
-
